@@ -42,6 +42,9 @@ header .wsmobileheader{display:none;}
 /*================================================
     Secondary Header 
 ==================================================*/
+.secondary-header {
+    background: #f5f5f5;
+}
 .secondary-header nav{padding:15px 0;}
 .secondary-header nav ul .nav-item { position: relative; margin: 0 10px;}
 .secondary-header nav ul .nav-item .nav-link { font-size: 17px; font-family: 'Poppins', sans-serif; color: #222222; font-weight: 400; line-height: 24px;}
