@@ -1,0 +1,600 @@
+body{
+  background-color:  #f5f5f5;
+
+}
+
+
+
+#main{
+    width: 72%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 1050px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+
+}
+
+td button{
+  border: none;
+}
+
+#two{
+    display: flex;
+    text-align: center;
+    padding: 20px;
+}
+
+#two h3{
+ 
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+
+#img{
+    display: inline;
+    width: 24px;
+    height: 24px
+    
+}
+
+#three{
+    display: flex;
+    padding: 10px;
+    margin-left: 3px;
+    text-align: center;
+}
+
+
+
+
+
+#three button {
+    padding: 10px;
+    margin-left: 5px;
+    margin-top: 10px;
+    background-color:#3fabf4;
+    color: white;
+    border: none;
+}
+
+#three select{
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 1px solid black;
+    width: 50px;
+    height:15x
+}
+#three h4{
+    margin-left: 600px;
+    font-size: 16px;
+    margin-top: 10px;
+}
+#three input{
+  margin-left:2px;
+  padding: 0px;
+  margin-top: 6px;
+  height: 25px;
+}
+
+
+label{
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  left: 10px;
+    top: 20px;
+    position: relative
+}
+    
+
+
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+th,
+td {
+  padding: 15px;
+}
+
+tr > th {
+  background-color:#3fabf4;
+  color: white;
+}
+
+
+
+#four{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn{
+    background-color:#3fabf4 ;
+    color: white;
+    padding: 5px;
+    margin-left:3px;
+    border: none;
+
+
+    
+}
+
+ #ptag{
+  display: flex;
+  padding: 2px;
+  margin-top: 5px;
+
+ 
+}
+
+#ptag p{
+  margin-left: 30px;
+  font-size: 22px; 
+  font-weight: lighter;
+}
+
+.btn{
+
+  background-color:#3fabf4 ;
+  color: white;
+  padding: 5px;
+  margin-left:3px;
+  border: none;
+}
+
+#button{
+display: flex;
+justify-content: flex-end;
+}
+
+
+
+
+
+
+
+
+@media all and (min-width:480px) and (max-width:720px){
+  #main{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    height: 1050px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+
+}
+
+td button{
+  border: none;
+}
+
+#two{
+    display: flex;
+    text-align: center;
+    padding: 10px;
+}
+
+#two h3{
+ 
+  font-size: 16px;
+  margin-left: 10px;
+}
+
+
+#img{
+    display: inline;
+    width: 24px;
+    height: 24px
+    
+}
+
+#three{
+  display: grid;
+  grid-template-columns: repeat(1,1fr);
+  gap:10px;
+  padding: 5px;
+  
+  
+}
+
+
+
+
+
+#three button {
+  padding: 5px;
+  margin-left:2;
+  margin-top: 2px;
+  background-color:#3fabf4;
+  color: white;
+  border: none;
+  width: 50px;
+  height: 30px;
+}
+
+#three select{
+  margin-left: 2px;
+  margin-right: 2px;
+  border: 1px solid black;
+  width: 50px;
+  height:15x
+}
+
+#three h4{
+  margin-left:150px;
+  font-size: 16px;
+  margin-top: 2px;
+}
+#three input{
+margin-top: 20px;
+margin-left:10px;
+padding: 0px;
+width: 100px;
+height: 25px;
+}
+
+
+label{
+display: inline-block;
+max-width: 100%;
+margin-bottom: 5px;
+font-weight: 700;
+left: 0px;
+top: 10px;
+  position: relative
+}
+
+
+
+
+
+table,
+td,
+th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+th,
+td {
+  padding: 10px;
+}
+
+tr > th {
+  background-color:#3fabf4;
+  color: white;
+}
+
+
+
+#four{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+ #ptag{
+  display: inline;
+  padding: 2px;
+ 
+}
+
+#ptag p{
+  margin-left: -950px;
+  font-size: 22px; 
+  font-weight: lighter;
+}
+
+
+
+.scroll {
+  overflow-y: scroll;
+  height: 700px;
+  width: 80%;
+  margin: 10px 5px;
+   padding: 5px;
+  text-align: justify;
+}
+.scroll::-webkit-scrollbar {
+  width:5px;
+}
+.scroll::-webkit-scrollbar-track {
+  -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3); 
+  border-radius:5px;
+}
+.scroll::-webkit-scrollbar-thumb {
+  border-radius:5px;
+  -webkit-box-shadow: inset 0 0 6px black; 
+}
+
+
+#ptag{
+  display: flex;
+  padding: 2px;
+  margin-top: 5px;
+
+ 
+}
+
+#ptag p{
+  margin-left: 10px;
+  font-size: 22px; 
+  font-weight: lighter;
+}
+
+.btn{
+
+  background-color:#3fabf4 ;
+  color: white;
+  padding: 5px;
+  margin-left:3px;
+  border: none;
+}
+
+#button{
+display: flex;
+justify-content: flex-end;
+}
+
+
+label{
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  left: 10px;
+    top: 20px;
+    position: relative
+}
+
+
+  
+
+  }
+  
+  @media all and (min-width:320px) and (max-width:479px){
+  
+    #main{
+      width: 90%;
+      margin: auto;
+      text-align: center;
+      margin-top: 40px;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      height: 1050px;
+      background-color: white;
+      border-radius: 10px;
+      padding: 20px;
+  
+  }
+  
+  td button{
+    border: none;
+  }
+  
+  #two{
+      display: flex;
+      text-align: center;
+      padding: 10px;
+  }
+  
+  #two h3{
+   
+    font-size: 16px;
+    margin-left: 10px;
+  }
+  
+  
+  #img{
+      display: inline;
+      width: 24px;
+      height: 24px
+      
+  }
+  
+  #three{
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      padding: 2px;
+      margin-left:1px;
+      text-align: center;
+  }
+  
+  
+  #three h3{
+    font-size: 14px;
+    font-weight: bold;
+    margin-left: 1px;
+    text-align: center;
+  
+  }
+  
+  
+  #three button {
+      padding: 5px;
+      margin-left:2px;
+      margin-top: 5px;
+      background-color:#3fabf4;
+      color: white;
+      border: none;
+  }
+  
+  #three select{
+      margin-left: 1px;
+      margin-right: 1px;
+      border: 1px solid black;
+      width: 50px;
+      height:10x
+  }
+  #three h4{
+      margin-left: 600px;
+      font-size: 16px;
+      margin-top: 10px;
+  }
+  #three input{
+   padding: 0px;
+    margin:20px;
+    height: 20px;
+    border: 1px solid black;
+  }
+  
+  
+  
+  
+  table,
+  td,
+  th {
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+    margin: auto;
+    margin-top: 20px;
+  min-width: 1024px;
+  }
+  
+  th,
+  td {
+    padding: 10px;
+    /* height: 20px; */
+ 
+  }
+  
+  tr > th {
+    background-color:#3fabf4;
+    color: white;
+  }
+  
+  
+  
+  #four{
+      display: flex;
+      justify-content: flex-end;
+  }
+  
+  .btn{
+      background-color:#3fabf4 ;
+      color: white;
+      /* padding: 5px; */
+      margin-left:3px;
+      border: none;
+  
+  
+      
+  }
+  
+   #ptag{
+  
+   display: inline;
+    padding: 2px;
+   
+  }
+  
+  #ptag p{
+    margin-left: 50px;
+    font-size: 16px; 
+    font-weight: lighter;
+  }
+  
+  
+
+  .scroll {
+    overflow-y: auto;
+    height: 700px;
+    width: 100%;
+    margin: 10px 5px;
+   padding: 5px;
+    text-align: justify;
+}
+/* .scroll::-webkit-scrollbar {
+    width:1px;
+}
+.scroll::-webkit-scrollbar-track {
+    -webkit-box-shadow:inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius:5px;
+}
+.scroll::-webkit-scrollbar-thumb {
+    border-radius:5px;
+    -webkit-box-shadow: inset 0 0 6px black; 
+}
+
+ */
+
+
+ #ptag{
+  display: flex;
+  padding: 2px;
+  margin-top: 5px;
+
+ 
+}
+
+#ptag p{
+  margin-left: 10px;
+  font-size: 22px; 
+  font-weight: lighter;
+}
+
+.btn{
+
+  background-color:#3fabf4 ;
+  color: white;
+  padding: 4px;
+  margin-left:0px;
+  border: none;
+}
+
+#button{
+display: flex;
+justify-content: flex-end;
+}
+
+
+label{
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  left: 10px;
+    top: 20px;
+    position: relative
+}
+
+
+
+      
+  }

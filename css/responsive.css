@@ -1,0 +1,27 @@
+@media only screen and (max-width:1279px){
+    .secondary-header nav ul .nav-item .nav-link{font-size:14px;}
+    .referral-section .card-body .card-left p{font-size:13px;}
+}
+@media only screen and (max-width:991px){
+    header nav > ul > li:not(:last-child){display:none;}
+    header .header-wrapper{justify-content:space-between;}
+    header nav:not(.wsmenu) { margin-left: initial!important;;}
+    header nav ul li .profile-details { display: none;}
+    header .wsmobileheader{display:block;}
+    header .wsmenu-list{align-items:center;display:flex !important;flex-direction:column;justify-content:center;}
+    header .wsmenu-list .leftlogo a{ text-align: center !important;}
+
+    .secondary-header{display:none;} 
+    
+    .club-section--bottom .card .card-body{padding:15px;}
+    .club-section--bottom .card .card-body .card-title{font-size:18px; margin-bottom: 10px;}
+    .club-section--bottom .card .card-body .card-text{font-size:14px;}
+
+}
+
+@media only screen and (max-width:767px){
+    .club-section--top h2{font-size:16px;line-height:1.1;}
+}
+@media only screen and (max-width:575px){
+    .social-sharing .social-code p{font-size:14px;}
+}
