@@ -6,10 +6,10 @@ body {
     width: 70%;
     margin: auto;
     margin-top: 40px;
+    margin-bottom: 40px;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     color: white;
     color: black;
-    height: 600px
 }
 
 #one {
@@ -35,19 +35,22 @@ body {
 }
 
 #main {
-    display: grid;
+    /* display: grid;
     grid-template-columns: repeat(4, 1fr);
     margin-top: 30px;
-    gap: 20px;
-    padding: 10px;
+    gap: 20px; 
+    padding: 10px;*/
     text-align: center;
-    width: 100%;
-    padding: 20px;
+    /* width: 100%;
+    padding: 20px; */
 }
 
 #main div {
     border: 1px solid #ccc;
     padding: 30px 0px;
+    width: 210px;
+    display: inline-grid;
+    margin: 0 0 10px 6px;
 }
 
 #main div:hover {
@@ -78,7 +81,7 @@ body {
 }
 
 @media all and (min-width:480px) and (max-width:720px) {
-    #imp {
+    /* #imp {
         width: 70%;
         padding: 10px;
         margin: auto;
@@ -86,9 +89,8 @@ body {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         color: white;
         color: black;
-        height: 800px
-    }
-    #main {
+    } */
+    /* #main {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         margin-top: 30px;
@@ -96,11 +98,11 @@ body {
         padding: 10px;
         text-align: center;
         width: 100%;
-    }
+    } */
 }
 
 @media all and (min-width:320px) and (max-width:479px) {
-    #imp {
+    /* #imp {
         width: 70%;
         padding: 20px;
         margin: auto;
@@ -108,9 +110,8 @@ body {
         box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
         color: white;
         color: black;
-        height: 1300px
-    }
-    #main {
+    } */
+    /* #main {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         margin-top: 30px;
@@ -118,5 +119,5 @@ body {
         padding: 10px;
         text-align: center;
         width: 100%;
-    }
+    } */
 }
