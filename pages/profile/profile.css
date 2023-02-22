@@ -1,0 +1,315 @@
+body{
+    background-color:  #f5f5f5;
+  
+  }
+  
+  
+  
+  #main {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    margin-top: 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 50px;
+  }
+  .panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    color: #fff!important;
+    background-color: #000000!important;
+    text-align: left;
+}
+
+.profiletab {
+    border: none!important;
+    width: 100%;
+    margin: 30px auto 30px;
+    text-align: center;
+}
+.profiletab li {
+    padding: 15px;
+}
+.profiletab li a i {
+	font-size: 36px;
+	display: block;
+	margin: 8px 0 10px
+}
+
+.profiletab a.active {
+    background-color: #3fabf4!important;
+}
+
+.profiletab li a {
+	border: 1px solid #ccc;
+	border-radius: 3px!important;
+	display: inline-block;
+	width: 100%;
+	background-size: 100% 100%
+}
+
+.profiletab li:first-child a {
+	background-size: 100% 100%
+}
+
+.profiletab li:last-child a {
+	background-size: 100% 100%
+}
+
+.profiletab li.active a {
+	padding: 10px 15px!important;
+}
+
+.tabouterr {
+	padding: 0 0 40px
+}
+.profiletab li a {
+    min-height: 100px;
+    padding: 10px;
+}
+.profiletab li a:hover {
+}
+
+.taboumainouter {
+	padding: 50px 0
+}
+
+.profilecon {
+	position: relative;
+	overflow: hidden;
+	border-radius: 11px 21px 31px 22px!important;
+	border: 1px solid #456802
+}
+
+.profilecon .active {
+	display: inline-block;
+	width: 100%;
+	padding: 30px 49px 20px;
+	z-index: 99;
+	background-position: 0 -76px!important;
+	position: relative
+}
+
+.profileoutr {
+	display: inline-block;
+	width: 60%;
+	background: #fff;
+	margin: 12px auto 40px;
+	padding: 38px;
+	box-shadow: 0 0 7px #e8dfdf;
+	border-radius: 16px;
+	text-align: left
+}
+
+.profilecon .alert.alert-danger {
+	margin-top: 48px;
+	margin-bottom: 17px
+}
+
+.profildetall {
+	background: #fff
+}
+
+.profileoutrmain {
+	text-align: center
+}
+.profile_show {
+    display: inline-block;
+    width: 100%;
+    padding: 125px 49px 20px;
+    z-index: 99;
+    background-position: 0 -76px!important;
+    position: relative;
+    position: relative;
+    overflow: hidden;
+    border-radius: 11px 21px 31px 22px!important;
+    border: 1px solid #c4c4c4;
+    display: none;
+}
+div#profile {
+    display: block;
+}
+.profile_show:before {
+    content: "";
+    background-color: #3fabf4!important;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.profileoutr {
+	display: inline-block;
+	width: 60%;
+	background: #fff;
+	margin: 12px auto 40px;
+	padding: 38px;
+	box-shadow: 0 0 7px #e8dfdf;
+	border-radius: 16px;
+	text-align: left
+}
+
+.profilecon .alert.alert-danger {
+	margin-top: 48px;
+	margin-bottom: 17px
+}
+
+.profildetall {
+	background: #fff
+}
+
+.profileoutrmain {
+	text-align: center
+}
+
+.profileoutr figure img {
+	border-radius: 50%;
+	width: 110px;
+	height: 110px;
+	display: inline-block
+}
+
+.profilede {
+    width: 100%;
+    margin: 25px 0 0 0;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+}
+.profilede ul {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	display: inline-block
+}
+
+.profilede ul li {
+    width: 100%;
+    line-height: 31px;
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 15px;
+    color: #222;
+}
+
+.profiletab li a:focus {
+}
+
+.form-group1 {
+	margin: 0 0 20px;
+	text-align: left
+}
+
+.profileoutr figure {
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 29px 0 0
+}
+
+.form-group1 label {
+	text-align: left;
+	font-weight: 400;
+	display: inline-block;
+	width: 100%;
+	margin: 0
+}
+
+.profileoutr .form-control {
+    box-shadow: none!important;
+    border: none!important;
+    padding: 0;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+form.form-horizontal p {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    color: #222;
+    margin-bottom: 10px;
+}
+.sub_btn{
+    margin-right: 10px;
+    margin-top: 0px;
+    background-color: #3fabf4;
+    color: white;
+    border: none;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 7px 25px 7px 25px;
+    height: 40px;
+    transition: 0.5s all ease;
+  }
+  .sub_btn:hover{
+    background-color: #000;
+    color: white;
+    transition: 0.5s all ease;
+  }
+@keyframes move_wave {
+	0% {
+		transform: translateX(0) translateZ(0) scaleY(1)
+	}
+	50% {
+		transform: translateX(-25%) translateZ(0) scaleY(.55)
+	}
+	100% {
+		transform: translateX(-50%) translateZ(0) scaleY(1)
+	}
+}
+
+.waveWrapper {
+	overflow: hidden;
+	left: 0;
+	right: 0;
+	top: 0;
+	margin: auto;
+	z-index: 0
+}
+
+.waveWrapperInner {
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	height: 122px;
+	top: 0;
+	background-image: linear-gradient(to top, #83b71f 20%, #456802 80%)
+}
+label.control-label {
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 400;
+    display: block;
+    margin-bottom: 10px;
+}
+.table_striped_scn .table>:not(caption)>*>* {
+    padding: 8px 15px;
+    font-size: 15px;
+    text-align: left;
+    font-weight: 500;
+    color: #222;
+}
+table.table.table-striped.table-hover {
+    border: 1px solid #ccc;
+}
+.profile_show label {
+    font-size: 15px;
+    color: #222;
+    text-align: left;
+    display: block;
+    margin-bottom: 6px;
+}
+.profile_show  .form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+
+
+
+
