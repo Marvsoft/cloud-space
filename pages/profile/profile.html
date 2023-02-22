@@ -1,0 +1,576 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- STYLES -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" />
+  <link rel="stylesheet" href="../../css/style.css" />
+  <link rel="stylesheet" href="../../css/responsive.css" />
+  <link rel="stylesheet" type="text/css" media="all" href="../../css/webslidemenu.css" />
+  <!-- script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script type="text/javascript" src="../js/webslidemenu.js"></script>
+
+  <link rel="stylesheet" href="./profile.css" />
+</head>
+
+<body>
+  <header id="header" class="header">
+    <div class="container">
+      <div class="header-wrapper d-flex align-items-center">
+        <!-- Mobile Header -->
+        <div class="wsmobileheader clearfix">
+          <a id="wsnavtoggle" class="wsanimated-arrow"><span></span></a>
+        </div>
+        <!-- Mobile Header -->
+        <div class="d-flex align-items-center justify-content-between">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <img src="images/logo.png" alt="" />
+          </a>
+          <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div>
+        <!-- End Logo -->
+
+        <nav class="header-nav ms-auto">
+          <ul class="d-flex align-items-center">
+            <li class="nav-item"><a href="#">Cloud</a></li>
+            <li class="nav-item"><a href="#">Walker</a></li>
+            <li class="nav-item">
+              <a href="#" class="border-0">Balance <span class="balance">0.00</span></a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link d-flex align-items-center border-0" href="#">
+                <span class="percent">100%</span>
+                <span class="d-none d-md-block ps-2">Profile <br />Completed</span> </a><!-- End Profile Iamge Icon -->
+            </li>
+            <!-- End Profile Nav -->
+
+            <li class="nav-item dropdown">
+              <a class="nav-link nav-profile d-flex align-items-center pe-0 border-0" href="#"
+                data-bs-toggle="dropdown">
+                <img src="../../images/profile-img.png" alt="Profile" class="rounded-circle" />
+                <div class="profile-details">
+                  <p class="ps-2 mb-1">00459777</p>
+                  <span class="d-none d-md-block dropdown-toggle ps-2 text-uppercase">CS Infotech</span>
+                </div>
+              </a><!-- End Profile Iamge Icon -->
+
+              <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                <li class="dropdown-header">
+                  <h6>Kevin Anderson</h6>
+                  <span>Web Designer</span>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+
+                <li>
+                  <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                    <i class="bi bi-person"></i>
+                    <span>My Profile</span>
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+
+                <li>
+                  <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                    <i class="bi bi-gear"></i>
+                    <span>Account Settings</span>
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+
+                <li>
+                  <a class="dropdown-item d-flex align-items-center" href="pages-faq.html">
+                    <i class="bi bi-question-circle"></i>
+                    <span>Need Help?</span>
+                  </a>
+                </li>
+                <li>
+                  <hr class="dropdown-divider" />
+                </li>
+
+                <li>
+                  <a class="dropdown-item d-flex align-items-center" href="#">
+                    <i class="bi bi-box-arrow-right"></i>
+                    <span>Sign Out</span>
+                  </a>
+                </li>
+              </ul>
+              <!-- End Profile Dropdown Items -->
+            </li>
+            <!-- End Profile Nav -->
+          </ul>
+        </nav>
+        <!-- End Icons Navigation -->
+      </div>
+
+      <nav class="wsmenu clearfix">
+        <ul class="wsmenu-list bg-dark">
+          <li class="leftlogo">
+            <a href="#"><img src="images/logo.png" class="img-fluid" /></a>
+          </li>
+          <li aria-haspopup="true">
+            <a href="#" class="active">Dashboard</a>
+          </li>
+          <li aria-haspopup="true">
+            <a href="#">Documents <span class="wsarrow"></span></a>
+            <ul class="sub-menu">
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu </a>
+              </li>
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu2</a>
+                <ul class="sub-menu">
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 1</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 2</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 3</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li aria-haspopup="true">
+            <a href="#">Purchases <span class="wsarrow"></span></a>
+            <ul class="sub-menu">
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu </a>
+              </li>
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu2</a>
+                <ul class="sub-menu">
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 1</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 2</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 3</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li aria-haspopup="true">
+            <a href="#">Genealogy <span class="wsarrow"></span></a>
+            <ul class="sub-menu">
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu </a>
+              </li>
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu2</a>
+                <ul class="sub-menu">
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 1</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 2</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 3</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li aria-haspopup="true">
+            <a href="#">CP Network <span class="wsarrow"></span></a>
+            <ul class="sub-menu">
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu </a>
+              </li>
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu2</a>
+                <ul class="sub-menu">
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 1</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 2</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 3</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li aria-haspopup="true">
+            <a href="#">Wallet <span class="wsarrow"></span></a>
+            <ul class="sub-menu">
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu </a>
+              </li>
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu2</a>
+                <ul class="sub-menu">
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 1</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 2</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 3</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li aria-haspopup="true">
+            <a href="#">Payouts <span class="wsarrow"></span></a>
+            <ul class="sub-menu">
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu </a>
+              </li>
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu2</a>
+                <ul class="sub-menu">
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 1</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 2</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 3</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+          <li aria-haspopup="true">
+            <a href="#">Support <span class="wsarrow"></span></a>
+            <ul class="sub-menu">
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu </a>
+              </li>
+              <li aria-haspopup="true">
+                <a href="#"><i class="fas fa-angle-right"></i>Sub Menu2</a>
+                <ul class="sub-menu">
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 1</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 2</a>
+                  </li>
+                  <li aria-haspopup="true">
+                    <a href="#"><i class="fas fa-angle-right"></i>Submenu item 3</a>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Secondary Header ======= -->
+  <div class="secondary-header">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Dashboard <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-dropdown" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">Documents</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-dropdown" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">Purchases</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-dropdown" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">Genealogy</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-dropdown" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">CP Network</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="pages/myAffilates.html">Action</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-dropdown" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">Wallet</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="../pages/myAffilates.html">Action</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-dropdown" href="../pages/myAffilates.html" role="button" id="dropdownMenuLink"
+                data-bs-toggle="dropdown" aria-expanded="false">Payouts</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link custom-dropdown" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown"
+                aria-expanded="false">Support</a>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                <li>
+                  <a class="dropdown-item" href="../pages/myAffilates.html">Action</a>
+                </li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+  <!-- End Secondary Header -->
+
+    <div class="container">
+        
+        <div id="main">
+            <div class="panel-heading">My Profile</div>
+            <div class="profile_tabs">
+                <ul class="nav nav-tabs profiletab" role="tablist"> 
+                    <li role="presentation" class="active  col-lg-3 col-sm-3 col-md-3 col-xs-6" id="li-profile">
+                        <a href="javascript:;"  data-target="profile" class="tabs active">
+                        <i class="far fa-user"></i> Profile</a>
+                    </li> 
+                    <li role="presentation" id="li-edit" class="col-lg-3 col-sm-3 col-md-3 col-xs-6"> 
+                        <a href="javascript:;" data-target="edit" class="tabs"><i class="far fa-file-alt"></i> Update Information</a> </li> 
+                    <li role="presentation" data-target="partnerlist" id="li-password" class="col-lg-3 col-sm-3 col-md-3 col-xs-6">
+                        <a href="javascript:;" data-target="password" class="tabs"><i class="far fa-file-code"></i>Change Password</a> </li>
+                    <li role="presentation" id="li-partnerlist" class="col-lg-3 col-sm-3 col-md-3 col-xs-6"> 
+                        <a href="javascript:;" data-target="partnerlist" class="tabs"><i class="far fa-file-alt"></i> Payee Group</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="profile_show_scn">
+                <!--Tabs 1-->
+                <div class="profile_show" id="profile">
+                    <div class="profileoutr">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <figure>
+                                    <img src="https://mycloudparticles.com/img/frontend/profile-picture/default_profile.jpg">
+                                </figure>
+                            </div>
+                            <div class="col-md-8">
+                                <form method="POST" class="form-horizontal">
+                                    <div class="form-group">
+                                        <label for="profile_pic" class="control-label">Upload profile photo</label> <div class="col-md-8">
+                                            <input class="form-control" placeholder="Upload profile photo" name="profile_pic" type="file" id="profile_pic">
+                                        </div>
+                                        <p>The dimension of profile photo must not be greater than 2000*2000 in size.Only JPG, JPEG and PNG files are allowed. </p>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="col-md-6 ">
+                                            <input class="sub_btn" id="update-profile" type="submit" value="Update">
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="col-md-12">
+                                <div class="profilede">
+                                    <ul>
+                                        <li><strong>Firm Name :</strong> CS INFOTECH </li> <li><strong>Name :</strong> Cs infotech </li>
+                                        <li>
+                                            <strong>Email :</strong> sandeepkumarhufkarta@gmail.com</li> <li> <strong>Phone :</strong> 7018800654</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div class="table_striped_scn">
+                        <table class="table table-striped table-hover">
+                            <tbody>
+                                <tr>
+                                    <th>City</th>
+                                    <td>Shimla</td>
+                                 </tr>
+                                  <tr> 
+                                    <th>State</th> 
+                                    <td>Himachal Pradesh</td>
+                                 </tr>
+                                  <tr> 
+                                    <th>Country</th> 
+                                    <td>India</td> 
+                                </tr>
+                                 <tr>
+                                     <th>Pin code</th>
+                                      <td>171006</td> 
+                                    </tr>
+                                     <tr>
+                                         <th>Pan No.</th> 
+                                         <td>AASFC0982F</td> 
+                                        </tr> 
+                                        <tr>
+                                            <th>Account Created On</th> 
+                                            <td>26-07-2022 (6 months ago)</td>
+                                         </tr> 
+                                         <tr>
+                                             <th>Last Updated</th>
+                                              <td>21-02-2023 (55 seconds ago)</td> 
+                                            </tr> 
+                                        </tbody>
+                                    </table>
+                    </div>
+                </div>
+
+                <!--Tabs 2-->
+                <div class="profile_show" id="edit">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>First and Middle Name</label>
+                                    <input type="text" placeholder="Name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input type="text" placeholder="Last Name"  class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="sub_btn" id="update-profile" type="submit" value="Update">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!--Tabs 3-->
+                <div class="profile_show" id="password">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>First and Middle Name</label>
+                                    <input type="text" placeholder="Name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input type="text" placeholder="Last Name"  class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="sub_btn" id="update-profile" type="submit" value="Update">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+
+                <!--Tabs 4-->
+                <div class="profile_show" id="partnerlist">
+                    <form>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>First and Middle Name</label>
+                                    <input type="text" placeholder="Name" class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label>Last Name</label>
+                                    <input type="text" placeholder="Last Name"  class="form-control">
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input class="sub_btn" id="update-profile" type="submit" value="Update">
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+        </div>
+    </div>
+
+  <footer>
+    <div class="container">
+      <p class="text-center mb-0">
+        Your experience on this site will be improved by allowing cookies.
+        Allow cookies
+      </p>
+    </div>
+  </footer>
+<script>
+    $(document).ready(function(){
+        $('.profiletab li a').click(function(){
+            var tabs = $(this).attr("data-target");
+            $('.profile_show').hide();
+            $("#" + tabs).show();
+            $(this).addClass('active');
+            $(this).parent().siblings().children().removeClass('active');
+        }) 
+    })
+</script>
+</body>
+
+</html>
